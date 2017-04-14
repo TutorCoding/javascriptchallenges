@@ -1,12 +1,13 @@
-var bird = 'Pidgeons';
-( function () {
-    if ( typeof bird === 'undefined' ){
+    var bird = 'Pidgeons';
+    ( function () {
+      if ( typeof bird === 'undefined' ){
         var bird = 'Rubber Duck';
         console.log('Ernie loves his ' + bird );
-    } else {
-        console.log('Bert loves his ' + bird );
-    }
-}() );
+        } else {
+          console.log('Bert loves his ' + bird );
+        }
+        }()
+    );
 
 Output dari program di atas adalah Ernie loves his Rubber Duck.
 Padahal seharusnya adalah Bert loves his Pidgeons karena sebelum fungsi tersebut
