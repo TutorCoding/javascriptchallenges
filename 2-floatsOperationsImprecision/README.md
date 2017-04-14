@@ -1,16 +1,15 @@
-var stockOptionsCost = 10.70, paid = 20.80;
+    var stockOptionsCost = 10.70, paid = 20.80;
 
-function calculateChange() {
+    function calculateChange() {
+      return paid - stockOptionsCost;
+    }
 
-    return paid - stockOptionsCost;
-}
+    function calculateAmountOfStockOptions () {
+      return paid / stockOptionsCost;
+    }
 
-function calculateAmountOfStockOptions () {
-    return paid / stockOptionsCost;
-}
-
-var amountStockOptions = calculateAmountOfStockOptions();
-var yourChange = calculateChange();
+    var amountStockOptions = calculateAmountOfStockOptions();
+    var yourChange = calculateChange();
 
 Hasil dari perhitungan fungsi calculateAmountOfStockOptions adalah 1.94392523364486
 
