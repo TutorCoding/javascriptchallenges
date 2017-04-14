@@ -7,10 +7,10 @@ Saya ingin menginisialisasi variable 'testValue' menjadi 3
 
 Jika kode di atas dieksekusi maka outputnya adalah sebagai berikut:
 
-SyntaxError: Unexpected token )
+    SyntaxError: Unexpected token )
 
 Berapa nilai dari testValue?
-undefined
+    undefined
 
 Mengapa?
 karena function di atas tidak berhasil melakukan eksekusi sendiri.
