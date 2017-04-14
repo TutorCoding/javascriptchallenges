@@ -1,4 +1,4 @@
-var bird = 'Eagle';
+var bird = 'Pidgeons';
 ( function () {
     if ( typeof bird === 'undefined' ){
         bird = 'Rubber Duck';
