@@ -49,4 +49,7 @@ b. y = 7;
 
 karena hoisting hanya menarik var y (deklarasi) bukan y = 7 (inisialisasi).
 
-Kembali ke laptop, betulkan program burungnya si Bert.
+Kembali ke laptop, betulkan program burungnya si Bert. Program di atas itu tidak
+bisa menampilkan kalimat: Bert loves his Eagle karena var bird = 'Rubber Duck'
+ketarik ke bagian paling atas dari fungsi dan menjadi local scope dari fungsi tsb,
+sehingga global scope var bird = 'Pidgeons' tidak bisa dijalankan di fungsi tersebut.
