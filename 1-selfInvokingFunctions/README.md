@@ -1,7 +1,9 @@
 Saya ingin menginisialisasi variable 'testValue' menjadi 3
 
 var testValue;
-function test() { testValue = 3; }();
+function test() {
+  testValue = 3;
+  }();
 
 Jika kode di atas dieksekusi maka outputnya adalah sebagai berikut:
 
